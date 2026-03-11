@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color:#D6A7BA ;
+  margin: 0;
+  padding: 0;
+}
+ul {
+ display: flex;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+  background-color: darkslategray;
+}
+.derecha{
+	margin-left: auto;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+ul li a:hover {
+  background-color: darkslategray;
+}
+ul li a.active {
+	background-color: skyblue;
+	color: white;
+}
+.imagen-contenedor{
+	position: relative;
+
+}
+.imagen-contenedor img{
+		display: block;
+		width: 100%;
+}
+.contenido{
+	position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: darkblue;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.contenido button {
+    margin-top: 20px;
+    padding: 20px 30px;
+    border: none;
+    background-color: seagreen;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contenido button:hover {
+    background-color: limegreen;
+}
+h1 {
+	font-family: arial;
+	text-align: center;
+	color: #412A57;
+	text-decoration: underline;
+}
+.cuadros {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.cuadro {
+  width: 400px;
+  padding: 40px;
+  border: 2px solid #7A3B05;
+  background-color: #8DC0CC;
+  text-align: center;
+  font-family: Arial;
+  color: #665103;
+}
+
+.cuadro h3 {
+  margin-bottom: 10px;
+}
+p{
+	text-align: justify;
+}
+a h3{
+	text-align: center;
+	background-color: white;
+	font-family: arial;
+	font-size: 12px;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="Tarea2.html">Inicio</a></li>
+  <li class="derecha"><a href="https://www.udemy.com/es/topic/html/free/?utm_campaign=Search_Keyword_Beta_Prof_la.ES_cc.ROW-Spanish&utm_source=google&utm_medium=paid-search&portfolio=ROW-Spanish&utm_audience=mx&utm_tactic=nb&utm_term=aprender%20desarrollo%20web&utm_content=g&funnel=&test=&gad_source=1&gad_campaignid=21487757259&gbraid=0AAAAADROdO269k3G4j86vxNfBeaE75V0q&gclid=CjwKCAjwpcTNBhA5EiwAdO1S9tY6fwKvl9mqRK8GrFox-3Dbfk6T1VKS9YS9yzyOAAkRQDiBktWoERoCn8kQAvD_BwE" target="_blank">Sobre Nosotros</a></li>
+  <li><a href="https://www.udemy.com/join/passwordless-auth/?locale=es_ES&next=https%3A%2F%2Fwww.udemy.com%2Fes%2Ftopic%2Fhtml%2Ffree%2F%3Futm_campaign%3DSearch_Keyword_Beta_Prof_la.ES_cc.ROW-Spanish%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DROW-Spanish%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3Daprender%2520desarrollo%2520web%26utm_content%3Dg%26funnel%3D%26test%3D%26gad_source%3D1%26gad_campaignid%3D21487757259%26gbraid%3D0AAAAADROdO269k3G4j86vxNfBeaE75V0q%26gclid%3DCjwKCAjwpcTNBhA5EiwAdO1S9tY6fwKvl9mqRK8GrFox-3Dbfk6T1VKS9YS9yzyOAAkRQDiBktWoERoCn8kQAvD_BwE&response_type=html&action=signup&mode=marketplace-signup" target="_blank">Registrate</a></li>
+</ul>
+<br>
+<div class="imagen-contenedor">
+	<img src="marcin.jpg" alt="Nombre de la imagen" width="100%">
+	<div class="contenido">
+		<h2>BIENVENIDOS!</h2>
+		<p>Sumergente en el mundo de la web, aprende mas de html aqui.</p>
+		<a href="https://www.w3schools.com/css/css_navbar_horizontal.asp" target="_blank">
+		<button>Ver más</button>
+	</a>
+	</div>
+</div>
+<br>
+<br>
+	<h1>HERRAMIENTAS PRINCIPALES</h1>
+<div class="cuadros">
+  <div class="cuadro">
+    <h3>HTML</h3>
+    <p>Es el lenguaje que se usa para crear y estructurar páginas web.Define elementos como texto, imágenes, enlaces y botones dentro de un sitio web.</p>
+  </div>
+
+  <div class="cuadro">
+    <h3>CSS</h3>
+    <p>Es el lenguaje que se usa para dar estilo y diseño a las páginas web.Permite cambiar colores, tamaños, posiciones y apariencia de los elementos HTML.</p>
+  </div>
+</div>
+<br>
+<div>
+	<a><h3>Mi Sitio Web. Maria Valentina Pereda Arriola</h3></a>
+</div>
+</body>
+</html>
+
